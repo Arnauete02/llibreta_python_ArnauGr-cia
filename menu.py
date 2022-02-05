@@ -1,3 +1,5 @@
+from llibreta import Llibreta
+
 def mostrar_menu_principal():
     option = 0
 
@@ -13,7 +15,15 @@ def mostrar_menu_principal():
             "\t5. Sortir\n\n" +
             "Enter an option: "))
         if option == 1:
-            print(1)
+            nom = input("Nom del client: ")
+            cognom = input("Cognom: ")
+            telefon = int(input("Telefon: "))
+            correu = input("Correu electronic: ")
+            adreca = input("Adreca: ")
+            ciutat = input("Ciutat: ")
+
+            
+            Llibreta.afegir_client(nom, cognom, telefon, correu, adreca, ciutat)
         elif option == 2:
             print(2)
         elif option == 3:

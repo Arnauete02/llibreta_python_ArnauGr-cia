@@ -1,13 +1,10 @@
-from typing_extensions import Self
-
-
-import uuid
+import llibreta as ll
 
 class Client:
 
     #constructor
     def __init__(self, nom, cognom, telefon, correu, adreca, ciutat):  
-        #self.id = uuid.uuid1()
+        self.id = ll.contador
         self.nom = nom
         self.cognom = cognom
         self.telefon = telefon
