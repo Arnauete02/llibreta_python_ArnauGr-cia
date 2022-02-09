@@ -1,2 +1,3 @@
-import menu as me
-me.mostrar_menu_principal()
+import menu 
+
+menu.Menu.mostrar_menu_principal(menu.Menu)
