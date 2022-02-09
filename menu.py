@@ -1,18 +1,8 @@
 from xmlrpc import client
 import llibreta
 
-class Menu:
-    llibretaClients = llibreta.Llibreta()
-
-    def __init__(self):
-        self.llibretaClients
-
-    def __init__(self, llibretaClients):
-        self.llibretaClients = llibretaClients
-
 def mostrar_menu_principal(llibretaClients):
-    if bool(llibretaClients) == True:
-        llibretaClients = llibreta.Llibreta()
+    llibretaClients = llibreta.Llibreta()
 
     option = 0
 
