@@ -1,3 +1,6 @@
 import menu 
+import llibreta
 
-menu.Menu.mostrar_menu_principal(menu.Menu)
+llibretaClients = llibreta.Llibreta
+
+menu.mostrar_menu_principal(llibretaClients)

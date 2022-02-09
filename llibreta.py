@@ -3,13 +3,10 @@ import client
 
 class Llibreta:
     llistaClients = []
-    idClient = 0
 
     def __init__(self):
         self.llistaClients = []
-        self.idClient = ""
         
-    
     def get_llista_clients(self):
         for client in self.llistaClients:
             print(client.__str__)

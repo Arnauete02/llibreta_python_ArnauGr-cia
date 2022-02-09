@@ -19,11 +19,11 @@ class Client:
 
     #representacio client -> string
     def __str__(self):
-        str = ("Client->[id = "+ self.id +
+        s = ("Client->[id = "+ str(self.id) +
         ", nom = "+ self.nom +
         ", cognom = "+ self.cognom +
-        ", telefon = "+ self.telefon +
+        ", telefon = "+ str(self.telefon) +
         ", correu = "+ self.correu +
         ", adreca = "+ self.adreca +
         ", ciutat = "+ self.ciutat + "]")
-        return str
+        return s
