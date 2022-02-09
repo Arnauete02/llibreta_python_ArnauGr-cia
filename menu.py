@@ -11,8 +11,7 @@ class Menu:
         self.llibretaClients = llibretaClients
 
 def mostrar_menu_principal(llibretaClients):
-    if bool(llibretaClients) == True:
-        llibretaClients = llibreta.Llibreta()
+    llibretaClients = llibreta.Llibreta()
 
     option = 0
 
